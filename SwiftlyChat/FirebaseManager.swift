@@ -14,6 +14,8 @@ import FirebaseFirestore
 
 class FirebaseManager: ObservableObject {
     @Published var user: User?
+    @Published var currentChatUser: ChatUser?
+    
     let storage: Storage
     var auth: Auth
     
